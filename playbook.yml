@@ -1,0 +1,6 @@
+- name: installation docker et run applicatif
+  hosts: app
+  become: yes
+  roles:
+  - service-docker
+  - service-install-run-helloworld

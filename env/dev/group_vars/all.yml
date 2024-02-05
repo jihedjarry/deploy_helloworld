@@ -1,0 +1,11 @@
+env: dev
+
+service_install_run_registry_url: "https://192.168.1.38:5000"
+service_install_run_registry_user: "jarry"
+service_install_run_registry_password: "jihed"
+
+
+docker_docker_conf:
+  userns-remap: "dockremap:dockremap"
+  insecure-registries: ["192.168.1.38:5000"]
+

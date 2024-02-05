@@ -1,0 +1,10 @@
+- src: https://gitlab.com/jihedjarry/service-docker.git 
+  name: service-docker
+  version: master
+  scm: git
+
+- src: https://github.com/jihedjarry/service-install-run-helloworld.git
+  name: service-install-run-helloworld
+  version: master
+  scm: git
+
